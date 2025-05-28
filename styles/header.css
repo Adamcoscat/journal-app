@@ -1,0 +1,56 @@
+body {
+	font-family: sans-serif;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	background: lightgrey;
+}
+
+body,
+header,
+.logo {
+	width: 100%;
+}
+
+header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+nav {
+	width: 80%;
+	margin-right: 40px;
+}
+
+.ssb {
+	
+}
+
+.logo {
+	font-size: 25px;
+	font-weight: 700;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.sections-cont {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 10px;
+	list-style-type: none;
+}
+
+.section {
+	text-align: center;
+	padding: 10px 0;
+	transition: 0.15s;
+}
+
+.section:hover {
+	background: grey;
+	text-decoration: underline;
+	text-decoration-color: white;
+	cursor: pointer;
+}
