@@ -1,0 +1,43 @@
+.entries-main {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	padding-top: 15px;
+	gap: 15px;
+	}
+
+.entry-cont {
+	background: white;
+	display: flex;
+	flex-direction: column;
+	width: 300px;
+	gap: 15px;
+	padding-left: 5px;
+	border: 3px solid black;
+}
+
+.entry-title {
+	width: 275px;
+	overflow: hidden;
+}
+
+.buttons-cont {
+	width: 200px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 10px;
+	margin-bottom: 5px;
+}
+
+.entry-load,
+.entry-remove {
+	border: 3px solid black;
+}
+
+.entry-load {
+	background: darkgreen;
+}
+
+.entry-remove {
+	background: red;
+}
